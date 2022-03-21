@@ -56,7 +56,10 @@ const Homepage = () => {
       <Box
         mt="5%"
         padding="2% 4%"
-        bgcolor="linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%)"
+        style={{
+          background:
+            "linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%)",
+        }}
       >
         <Typography color="textPrimary" className={classes.heading}>
           Shop by categories
